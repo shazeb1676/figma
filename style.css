@@ -3,88 +3,111 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    
-}
 .head{
     background-color: #043873;
-    padding: 40px 20px;
+    padding: 18px 219PX;
     
 
 }
 .heading-text{
-    font-size: 23px;
+    font-size: 18px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .heading{
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding:10PX OPX;
 }
 .heading-text-img{
     display: flex;
     align-items: center;
+    gap: 26px;
     
 
 }
 
 .btn1{
-padding: 10px 40px;
+padding: 16px 40px 16px 40px;
 border-radius: 12px;
-background-color: sandybrown;
-font-size: 27px;
+background-color: #ffe492;
+font-size: 18px;
 color: white;
 cursor: pointer;
 }
 
 .btn2{
-padding: 10px 60px;
-border-radius: 12px;
-background-color: #135fb6;
-font-size: 27px;
+padding: 16px 24px;
+background-color: #4f9cf9;
+font-size: 18px;
 color: white;
 cursor: pointer;
+letter-spacing: -2%;
+display: flex;
+align-items: center;
 }
 
 .testimonials{
     display: flex;
     justify-content: center;
-    padding: 40px 40px;
     background-color: #043873;
+    gap: 60px;
+    padding: 111PX 219px;
 }
 .heading2 .h2{
     font-weight: 700;
-    padding: 0 40px;
-    font-size: 69px;
+    /* padding: 0 40px; */
+    font-size: 64px;
     color: white;
+    line-height: 77.45px;
+    initial-letter: -2%;
 }
 .h2{
     color: white;
+    font-weight: 700;
+    font-size: 64px;
+    
 }
 .para{
     color: white;
     margin: 31px 0;
 }
-.heading2 .btn3{
+.heading2{
     padding: 10px 60px;
     border-radius: 12px;
-    background-color: #135fb6;
+    background-color: #043873;
     font-size: 27px;
     color: white;
     cursor: pointer;    
 }
+.btn3{
+    padding: 10px 40px;
+    /* border-radius: 12px; */
+    background-color:#4f9cf9 ;
+    font-size: 27px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
 .testimonials2{
     display: flex;
     background-color: #fff;
-    padding: 30px 40px;
+    padding: 111px 219px;
+    gap: 20px;
 }
 .btn4{
     padding: 10px 60px;
-    border-radius: 12px;
-    background-color: #135fb6;
+    /* border-radius: 12px; */
+    background-color: #4f9cf9;
     font-size: 27px;
     color: white;
-    cursor: pointer;   
+    cursor: pointer;  
+    display: flex; 
+    align-items: center;
 }
 .h3{
     font-size: 69px;
@@ -94,39 +117,59 @@ cursor: pointer;
 }
 .testimonials3{
     display: flex;
-    padding: 20px 40px;
+    padding: 111px 219px;
     align-items: center;
 }
 .heading4{
-   padding: 34px; 
+   padding: 139px; 
 }
 .testimonials4{
     display: flex;
-padding: 20px 40px;
+padding: 111px 219px;
 align-items: center;
-padding: 20px 40px;
 background-color: #043873;
+gap: 20px;
 }
 
 .btn5{
-    padding: 10px 60px;
-    border-radius: 12px;
-    background-color: #135fb6;
+    padding: 20px 40px;
+    /* border-radius: 12px; */
+    background-color: #4f9cf9;
     font-size: 27px;
     color: white;
-    cursor: pointer;   
+    cursor: pointer;
+    display: flex;   
+    align-items: center;
 }
 .h4{
-    font-weight: 600;
-    font-size: 69px;
+    font-weight: 700;
+    font-size: 72px;
+    color: #fff;
+    
+}
+.h5{
+font-weight: 700;
+font-size: 72px;
+
+}
+.para4{
+font-family: 400;
+font-size: 18px;
+line-height: 30px;
+
 }
 .para3{
-    font-size: 49px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -2%;
+    color: #fff;
+
 }
 .testimonials5{
     display: flex;
     align-items: center;
-    padding: 20px 40px;
+    padding: 111px 219px;
 }
 .heading6{
     padding: 20px 40px;
@@ -138,48 +181,59 @@ background-color: #043873;
     text-align: center;
 }
 .plan{
-    font-size: 49px;
+    font-size: 72px;
+    font-weight: 700;
+}
+.para7{
+    font-weight: 400;
+    font-size: 18px;
+    
 }
 .box{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px 40px;
+    padding: 111px 219px;
     column-gap: 39px;
 }
 .box1{
- padding: 71px 95px;
- background-color: white;
- border-radius: 13px; 
+ padding: 40px 44px;
+ background-color: #fff;
  overflow: hidden; 
- box-shadow: 8px 8px 5px grey; 
+ box-shadow: 8px 8px 5px grey;
+  
 }
 .box2{
-padding: 71px 95px;
-background-color: #4f9cf9;
-border-radius: 13px;
+padding: 40px 44px;
+background-color: #043873;
+
 overflow: hidden;
-color: white;
 box-shadow: 8px 8px 5px gray;
+
 }
 .box3{
-padding: 71px 95px;
-background-color: #4f9cf9;
-border-radius: 19px;
+padding: 40px 44px;
+background-color: #fff;
+
 overflow: hidden;
-color: white;
+
 box-shadow: 8px 8px 5px gray;
+
+}
+.ul1{
+    list-style: none;
 }
 .btn6{
-padding: 7px 15px;
-border-radius: 18px;
-background-color: #043873;
+padding: 8px 15px;
+border: none;
+background-color: white;
 }
 .btn7{
-padding: 7px 15px;
+padding: 8px 15px;
 background-color: #4f9cf9;
-border-radius: 13px;
+
 border: none;
 }
+
 .testimonials6{
     display: flex;
     flex-direction: column;
@@ -187,6 +241,16 @@ border: none;
     align-items: center;
     padding: 29px 0;
     background-color:#043873;
+}
+.h1-class{
+font-size: 72px;
+font-weight: 700;
+}
+.h1para{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -2%;
 }
 .para5{
     padding: 15px 245px;
@@ -200,7 +264,7 @@ border: none;
 .text-img{
     display: flex;
     align-items: center;
-    padding: 20px 40px;
+    padding: 111px 219px;
 }
 .btn9{
     padding: 10px 18px;
@@ -226,9 +290,10 @@ padding: 140px 220px;
     font-weight: 600;
 }
 .hero{
-    background-color: #4f9cf9;
-    border-radius: 19px;
-    color: white;
+    background-color: #ffff;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
+    padding: 33px;
+    
 }
 .hero1{
     display: flex;
@@ -237,7 +302,7 @@ padding: 140px 220px;
     border-top: grey;
     border-radius: 19px;
     padding: 12px 20px 12px 20px;
-
+gap: 10px;
 }
 
 .images{
@@ -250,8 +315,11 @@ padding: 140px 220px;
     margin-top: 50px;
 }
 .hero2{
-    background-color: #fff;
+    background-color: #4f9cf9;
     padding: 12px 20px 12px 20px;
+    padding: 12px 20px;
+    gap: 10px;
+    margin-top: 29px;
 }
 .testimonials8{
     display: flex;
@@ -262,21 +330,43 @@ padding: 140px 220px;
 .testimonials9{
  text-align:center;
  padding: 0 40px;
- background-color: #135fb6;
+ background-color:#043873 ;
  color: white;
+ padding: 93px 0;
 }
 
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    background-color: #135fb6;
-    padding: 30px 40px;
+    background-color: #043873;
+    padding:  111px 219px ;
+    gap: 40px;
     color: white;
     list-style: none;
+    line-height: 1.7;
+}
+.class1{
+    font-size: 72px;
+    font-weight: 700;
+}
+.para-class{
+font-weight: 400;
+font-size: 24px;
+margin: 8px 0;
 }
 .button16{
-    padding: 10px 15px;
+    padding: 10px 20px;
     background-color: #4f9cf9;
     color: white;
-    border-radius: 18px;
+    gap: 20px;
+}
+.footr{
+    background-color: #043873;
+    color: white;
+padding: 20px 219px;
+
+}
+.unlimited{
+    display: flex;
+gap: 70px;    
 }
