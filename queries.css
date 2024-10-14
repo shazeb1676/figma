@@ -1,0 +1,40 @@
+@media( max-width:1440px){
+    .head{
+        padding: 16px 32px;
+    }
+    .testimonials{
+        padding: 100px 32px;
+    }
+    .testimonials2{
+        padding: 70px 32px;
+    }
+    .testimonials3{
+        padding: 70px 32px;
+    }
+    .testimonials4{
+        padding: 140px 32px;
+    }
+    .testimonials5{
+        padding: 140px 32px;
+    }
+    .testimonials6{
+        padding: 140px 32px;
+    }
+    .text-img{
+        padding: 140px 32px;
+    }
+}
+@media(max-width:1152px){
+    .testimonials{
+padding: 80px 16px;
+        
+    }
+    .img1{
+        width: 100vh;
+    }
+    .head{
+        display: block;
+        padding: 8px 16px;
+    }
+
+}
