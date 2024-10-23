@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: "Inter", sans-serif;
     
@@ -10,6 +11,7 @@ body{
 .head{
     background-color: #043873;
     padding: 16px 220PX;
+
     
 
 }
@@ -19,6 +21,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.heading-text1{
+    display: flex;
+    gap: 40px;
+}
+.menu-bar{
+    display: none;
 }
 .heading{
     align-items: center;
@@ -65,6 +74,18 @@ border-radius: 12px;
     gap: 60px;
     padding: 140PX 220px;
 }
+.img1{
+    width: 100%;
+}
+.img2{
+    width: 100%;
+}
+.img3{
+    max-width: 100%;
+}
+.img4{
+    width: 100%;
+}
 
 .heading2 .h2{
     font-weight: 700;
@@ -104,11 +125,10 @@ border-radius: 12px;
     align-items: center;
 }
 .testimonials2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: #fff;
-    padding: 111px 219px;
+    padding: 140px 220px;
     gap: 20px;
 }
 .btn4{
@@ -130,21 +150,23 @@ border-radius: 12px;
 
 }
 .testimonials3{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 140px 220px;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 .heading4{
    padding: 139px; 
 }
 .testimonials4{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 padding: 140px 220px;
 align-items: center;
 justify-content: center;
 background-color: #043873;
-gap: 20px;
+gap: 98px;
 }
 
 .btn5{
@@ -217,12 +239,13 @@ line-height: 30px;
  background-color: #fff;
  overflow: hidden; 
  box-shadow: 8px 8px 5px grey;
+ line-height: 3.2;
   
 }
 .box2{
 padding: 40px 44px;
 background-color: #043873;
-
+line-height: 3.2;
 overflow: hidden;
 box-shadow: 8px 8px 5px gray;
 
@@ -234,7 +257,7 @@ box-shadow: 8px 8px 5px gray;
 .box3{
 padding: 40px 44px;
 background-color: #fff;
-
+line-height: 3.2;
 overflow: hidden;
 
 box-shadow: 8px 8px 5px gray;
@@ -305,7 +328,7 @@ padding: 140px 220px;
 .heading-img-text{
     display: flex;
     justify-content: space-between;
-    padding: 70px 32px;
+    padding: 70px 220px;
 }
 .head6{
     text-align: center;
@@ -315,7 +338,7 @@ padding: 140px 220px;
 .hero{
     background-color: #ffff;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
-    padding: 33px;
+    padding:60px 40px;
     
 }
 .hero1{
@@ -326,7 +349,7 @@ padding: 140px 220px;
     border-top: grey;
     border-radius: 19px;
     /* padding: 12px 20px 12px 20px; */
-    padding: 33px;
+    padding: 20px 0;
 gap: 10px;
 }
 
@@ -341,28 +364,36 @@ gap: 10px;
 }
 .hero2{
     background-color: #4f9cf9;
-    padding: 33px;
+    padding: 60px 40px;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
 }
 .testimonials8{
     display: flex;
-    padding: 81px 98px;
+    padding: 140px 220px;
     column-gap: 99px;
-    gap: 100px;
+    gap: 32px;
 }
 .testimonials9{
  text-align:center;
- padding: 0 40px;
+ padding: 140px 220px;
  background-color:#043873 ;
  color: white;
- padding: 93px 0;
+ padding: 140px 220px;
+ line-height: 1.2;
+}
+.button15{
+    background-color: #4f9cf9;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 12px;
+    border: none;
 }
 
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     background-color: #043873;
-    padding:  111px 219px ;
+    padding:  140px 220px ;
     gap: 40px;
     color: white;
     list-style: none;
@@ -382,12 +413,12 @@ margin: 8px 0;
     background-color: #4f9cf9;
     color: white;
     gap: 20px;
+    border-radius: 12px;
 }
 .footr{
     background-color: #043873;
     color: white;
-padding: 20px 219px;
-
+padding: 20px 220px;
 }
 .unlimited{
     display: flex;
