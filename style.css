@@ -33,7 +33,7 @@ body{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding:10PX OPX;
+    padding:10PX 0PX;
 }
 .heading-text-img{
     display: flex;
